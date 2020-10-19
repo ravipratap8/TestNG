@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-RegressionSuite" class="navigator-link">
+              <span class="suite-name border-passed">RegressionSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-RegressionSuite" class="navigator-link ">
+                    <span>C:\Users\Naysa\eclipse-workspace\TestNGPro\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-RegressionSuite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-RegressionSuite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-RegressionSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-RegressionSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-RegressionSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-RegressionSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RegressionSuite" class="hide-methods passed suite-RegressionSuite"> (hide)</a> <!-- hide-methods passed suite-RegressionSuite -->
+                      <a href="#" panel-name="suite-RegressionSuite" class="show-methods passed suite-RegressionSuite"> (show)</a> <!-- show-methods passed suite-RegressionSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-RegressionSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="testPackage.InPersonAppointment" class="method navigator-link" hash-for-method="CancelInPersonAptmnt">CancelInPersonAptmnt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="testPackage.TelevedConsultationVideo" class="method navigator-link" hash-for-method="ChangeDoctoronAppointmentPage">ChangeDoctoronAppointmentPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="testPackage.TelevedLogin" class="method navigator-link" hash-for-method="LaunchandLogin">LaunchandLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="testPackage.ParamData" class="method navigator-link" hash-for-method="LoginToDemoPortal(9823350607, secret, Ravi, Parikshit)">LoginToDemoPortal(9823350607, secret, Ravi, Parikshit)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="testPackage.TelevedConsultationVideo" class="method navigator-link" hash-for-method="LoginandgotoAppointmentPage">LoginandgotoAppointmentPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="testPackage.DataProvide" class="method navigator-link" hash-for-method="LoginwithDifferentUserName(UserName2, Password2)">LoginwithDifferentUserName(UserName2, Password2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="testPackage.DataProvide" class="method navigator-link" hash-for-method="LoginwithDifferentUserName(UserName3, Password3)">LoginwithDifferentUserName(UserName3, Password3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="testPackage.DataProvide" class="method navigator-link" hash-for-method="LoginwithDifferentUserName(UserName1, Password1)">LoginwithDifferentUserName(UserName1, Password1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="testPackage.TestNG1" class="method navigator-link" hash-for-method="dateandTime">dateandTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="testPackage.ParamData" class="method navigator-link" hash-for-method="printURL(https://demoportal.telived.com/)">printURL(https://demoportal.telived.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="testPackage.TelevedConsultationVideo" class="method navigator-link" hash-for-method="verifyAppointmentPage">verifyAppointmentPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RegressionSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RegressionSuite" class="panel RegressionSuite">
+          <div class="suite-RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.InPersonAppointment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CancelInPersonAptmnt">
+                  </a> <!-- CancelInPersonAptmnt -->
+                  <span class="method-name">CancelInPersonAptmnt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite-class-passed -->
+          <div class="suite-RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.TelevedConsultationVideo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChangeDoctoronAppointmentPage">
+                  </a> <!-- ChangeDoctoronAppointmentPage -->
+                  <span class="method-name">ChangeDoctoronAppointmentPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginandgotoAppointmentPage">
+                  </a> <!-- LoginandgotoAppointmentPage -->
+                  <span class="method-name">LoginandgotoAppointmentPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAppointmentPage">
+                  </a> <!-- verifyAppointmentPage -->
+                  <span class="method-name">verifyAppointmentPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite-class-passed -->
+          <div class="suite-RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.TelevedLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LaunchandLogin">
+                  </a> <!-- LaunchandLogin -->
+                  <span class="method-name">LaunchandLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite-class-passed -->
+          <div class="suite-RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.DataProvide</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginwithDifferentUserName(UserName2, Password2)">
+                  </a> <!-- LoginwithDifferentUserName(UserName2, Password2) -->
+                  <span class="method-name">LoginwithDifferentUserName</span>
+                  <span class="parameters">(UserName2, Password2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginwithDifferentUserName(UserName3, Password3)">
+                  </a> <!-- LoginwithDifferentUserName(UserName3, Password3) -->
+                  <span class="method-name">LoginwithDifferentUserName</span>
+                  <span class="parameters">(UserName3, Password3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginwithDifferentUserName(UserName1, Password1)">
+                  </a> <!-- LoginwithDifferentUserName(UserName1, Password1) -->
+                  <span class="method-name">LoginwithDifferentUserName</span>
+                  <span class="parameters">(UserName1, Password1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite-class-passed -->
+          <div class="suite-RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.ParamData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginToDemoPortal(9823350607, secret, Ravi, Parikshit)">
+                  </a> <!-- LoginToDemoPortal(9823350607, secret, Ravi, Parikshit) -->
+                  <span class="method-name">LoginToDemoPortal</span>
+                  <span class="parameters">(9823350607, secret, Ravi, Parikshit)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printURL(https://demoportal.telived.com/)">
+                  </a> <!-- printURL(https://demoportal.telived.com/) -->
+                  <span class="method-name">printURL</span>
+                  <span class="parameters">(https://demoportal.telived.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite-class-passed -->
+          <div class="suite-RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.TestNG1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateandTime">
+                  </a> <!-- dateandTime -->
+                  <span class="method-name">dateandTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite-class-passed -->
+        </div> <!-- panel RegressionSuite -->
+        <div panel-name="test-xml-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Naysa\eclipse-workspace\TestNGPro\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;RegressionSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;UserName&quot; value=&quot;9823350607&quot;/&gt;
+  &lt;parameter name=&quot;User2&quot; value=&quot;Parikshit&quot;/&gt;
+  &lt;parameter name=&quot;User1&quot; value=&quot;Ravi&quot;/&gt;
+  &lt;parameter name=&quot;URL&quot; value=&quot;https://demoportal.telived.com/&quot;/&gt;
+  &lt;parameter name=&quot;Password&quot; value=&quot;secret&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;testPackage.ListenersTestNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testPackage.ListenersTestNG&quot;/&gt;
+      &lt;class name=&quot;testPackage.ParamData&quot;/&gt;
+      &lt;class name=&quot;testPackage.DataProvide&quot;/&gt;
+      &lt;class name=&quot;testPackage.TestNG1&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;dateandTime&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testPackage.TestNG1 --&gt;
+      &lt;class name=&quot;testPackage.TelevedLogin&quot;/&gt;
+      &lt;class name=&quot;testPackage.TelevedConsultationVideo&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;Appointment.*&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testPackage.TelevedConsultationVideo --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Appointment&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testPackage.InPersonAppointment&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;Appointment.*&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testPackage.InPersonAppointment --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Appointment --&gt;
+&lt;/suite&gt; &lt;!-- RegressionSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Appointment (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CancelInPersonAptmnt</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">dateandTime</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RegressionSuite');
+function tableData_RegressionSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CancelInPersonAptmnt')
+data.setCell(0, 2, 'testPackage.InPersonAppointment')
+data.setCell(0, 3, 5);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginToDemoPortal')
+data.setCell(1, 2, 'testPackage.ParamData')
+data.setCell(1, 3, 4);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginandgotoAppointmentPage')
+data.setCell(2, 2, 'testPackage.TelevedConsultationVideo')
+data.setCell(2, 3, 3);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginwithDifferentUserName')
+data.setCell(3, 2, 'testPackage.DataProvide')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyAppointmentPage')
+data.setCell(4, 2, 'testPackage.TelevedConsultationVideo')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'printURL')
+data.setCell(5, 2, 'testPackage.ParamData')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LaunchandLogin')
+data.setCell(6, 2, 'testPackage.TelevedLogin')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'LoginwithDifferentUserName')
+data.setCell(7, 2, 'testPackage.DataProvide')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ChangeDoctoronAppointmentPage')
+data.setCell(8, 2, 'testPackage.TelevedConsultationVideo')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'dateandTime')
+data.setCell(9, 2, 'testPackage.TestNG1')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'LoginwithDifferentUserName')
+data.setCell(10, 2, 'testPackage.DataProvide')
+data.setCell(10, 3, 1);
+window.suiteTableData['RegressionSuite']= { tableData: data, tableDiv: 'times-div-RegressionSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 59 ms</span>
+              <div id="times-div-RegressionSuite">
+              </div> <!-- times-div-RegressionSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testPackage.TelevedConsultationVideo</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">AppointmentCanceVideo</span>
+                <br/>
+                <span class="ignored-method-name">AppointmentNextDayVid</span>
+                <br/>
+                <span class="ignored-method-name">AppointmentVideo</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testPackage.TestNG1</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">show</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.TestNG1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">show</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.InPersonAppointment</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Beforanytest</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">BeforeInPersonAppointmentClass</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">InPersonAptmnt</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.ParamData</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginToDemoPortal(9823350607, secret, Ravi, Parikshit)</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.InPersonAppointment</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CancelInPersonAptmnt</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BookInPersonApntmnt</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">AfterClassMethod</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.ParamData</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">printURL(https://demoportal.telived.com/)</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.DataProvide</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginwithDifferentUserName(UserName1, Password1)</span>
+                <span class="method-start">43 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginwithDifferentUserName(UserName2, Password2)</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginwithDifferentUserName(UserName3, Password3)</span>
+                <span class="method-start">48 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.TestNG1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dateandTime</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.TelevedLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LaunchandLogin</span>
+                <span class="method-start">54 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.TelevedConsultationVideo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginandgotoAppointmentPage</span>
+                <span class="method-start">57 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ChangeDoctoronAppointmentPage</span>
+                <span class="method-start">61 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAppointmentPage</span>
+                <span class="method-start">64 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.TestNG1</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">TestCleanup</span>
+                <span class="method-start">67 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.TelevedLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">LaunchandLogin</span>
+                <span class="method-start">98 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

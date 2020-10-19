@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" parallel="tests" thread-count="5">
+
+	<listeners>
+		<listener class-name="testPackage.ListenersTestNG" />
+
+	</listeners>
+
+	<parameter name="URL" value="https://demoportal.telived.com/"></parameter>
+	<parameter name="UserName" value="9823350607"></parameter>
+	<parameter name="Password" value="secret"></parameter>
+	<parameter name="User1" value="Ravi"></parameter>
+	<parameter name="User2" value="Parikshit"></parameter>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="testPackage.ListenersTestNG" />
+			<class name="testPackage.ParamData" />
+			<class name="testPackage.DataProvide" />
+			<class name="testPackage.TestNG1">
+				<methods>
+					<include name="dateandTime"></include>
+
+				</methods>
+			</class>
+			<class name="testPackage.TelevedLogin" />
+			<class name="testPackage.TelevedConsultationVideo">
+				<methods>
+					<exclude name="Appointment.*"></exclude>
+
+				</methods>
+			</class>
+
+		</classes>
+	</test> <!-- Test -->
+	<test name="Appointment">
+		<classes>
+			<class name="testPackage.InPersonAppointment">
+				<methods>
+					<exclude name="Appointment.*"></exclude>
+
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+</suite> <!-- Suite -->

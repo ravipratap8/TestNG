@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FunctionalSuite">
+<parameter name="URL" value="https://demoportal.telived.com/"></parameter>
+<parameter name="UserName" value ="9823350607"></parameter>
+<parameter name="Password" value ="secret"></parameter>
+<parameter name="User1" value="Ravi"></parameter>
+<parameter name="User2" value="Parikshit"></parameter>
+	<test thread-count="5" name="Test">
+	<packages>
+		<package name="testPackage"></package>
+		</packages>
+	</test>
+</suite> <!-- Suite -->

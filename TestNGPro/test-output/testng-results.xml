@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="15" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-18T19:49:36 IST" name="RegressionSuite" finished-at="2020-10-18T19:49:36 IST" duration-ms="59">
+    <groups>
+      <group name="Smoke">
+        <method signature="TestNG1.dateandTime()[pri:0, instance:testPackage.TestNG1@159f197]" name="dateandTime" class="testPackage.TestNG1"/>
+        <method signature="InPersonAppointment.CancelInPersonAptmnt()[pri:0, instance:testPackage.InPersonAppointment@659a969b]" name="CancelInPersonAptmnt" class="testPackage.InPersonAppointment"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2020-10-18T19:49:36 IST" name="Appointment" finished-at="2020-10-18T19:49:36 IST" duration-ms="30">
+      <class name="testPackage.InPersonAppointment">
+        <test-method is-config="true" signature="Beforanytest()[pri:0, instance:testPackage.InPersonAppointment@659a969b]" started-at="2020-10-18T19:49:36 IST" name="Beforanytest" finished-at="2020-10-18T19:49:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforanytest -->
+        <test-method is-config="true" signature="BeforeInPersonAppointmentClass()[pri:0, instance:testPackage.InPersonAppointment@659a969b]" started-at="2020-10-18T19:49:36 IST" name="BeforeInPersonAppointmentClass" finished-at="2020-10-18T19:49:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeInPersonAppointmentClass -->
+        <test-method is-config="true" signature="InPersonAptmnt()[pri:0, instance:testPackage.InPersonAppointment@659a969b]" started-at="2020-10-18T19:49:36 IST" name="InPersonAptmnt" finished-at="2020-10-18T19:49:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InPersonAptmnt -->
+        <test-method signature="CancelInPersonAptmnt()[pri:0, instance:testPackage.InPersonAppointment@659a969b]" started-at="2020-10-18T19:49:36 IST" name="CancelInPersonAptmnt" finished-at="2020-10-18T19:49:36 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelInPersonAptmnt -->
+        <test-method is-config="true" signature="BookInPersonApntmnt()[pri:0, instance:testPackage.InPersonAppointment@659a969b]" started-at="2020-10-18T19:49:36 IST" name="BookInPersonApntmnt" finished-at="2020-10-18T19:49:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookInPersonApntmnt -->
+        <test-method is-config="true" signature="AfterClassMethod()[pri:0, instance:testPackage.InPersonAppointment@659a969b]" started-at="2020-10-18T19:49:36 IST" name="AfterClassMethod" finished-at="2020-10-18T19:49:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClassMethod -->
+      </class> <!-- testPackage.InPersonAppointment -->
+      <class name="testPackage.TestNG1">
+        <test-method is-config="true" signature="show()[pri:0, instance:testPackage.TestNG1@159f197]" started-at="2020-10-18T19:49:36 IST" name="show" finished-at="2020-10-18T19:49:36 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- show -->
+      </class> <!-- testPackage.TestNG1 -->
+      <class name="testPackage.TelevedLogin">
+        <test-method is-config="true" signature="LaunchandLogin()[pri:0, instance:testPackage.TelevedLogin@51e5fc98]" started-at="2020-10-18T19:49:36 IST" name="LaunchandLogin" finished-at="2020-10-18T19:49:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchandLogin -->
+      </class> <!-- testPackage.TelevedLogin -->
+    </test> <!-- Appointment -->
+    <test started-at="2020-10-18T19:49:36 IST" name="Test" finished-at="2020-10-18T19:49:36 IST" duration-ms="59">
+      <class name="testPackage.TestNG1">
+        <test-method signature="dateandTime()[pri:0, instance:testPackage.TestNG1@159f197]" started-at="2020-10-18T19:49:36 IST" name="dateandTime" finished-at="2020-10-18T19:49:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateandTime -->
+        <test-method is-config="true" signature="TestCleanup()[pri:0, instance:testPackage.TestNG1@159f197]" started-at="2020-10-18T19:49:36 IST" name="TestCleanup" finished-at="2020-10-18T19:49:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCleanup -->
+      </class> <!-- testPackage.TestNG1 -->
+      <class name="testPackage.DataProvide">
+        <test-method signature="LoginwithDifferentUserName(java.lang.String, java.lang.String)[pri:0, instance:testPackage.DataProvide@1ffe63b9]" started-at="2020-10-18T19:49:36 IST" name="LoginwithDifferentUserName" data-provider="getData" finished-at="2020-10-18T19:49:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithDifferentUserName -->
+        <test-method signature="LoginwithDifferentUserName(java.lang.String, java.lang.String)[pri:0, instance:testPackage.DataProvide@1ffe63b9]" started-at="2020-10-18T19:49:36 IST" name="LoginwithDifferentUserName" data-provider="getData" finished-at="2020-10-18T19:49:36 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithDifferentUserName -->
+        <test-method signature="LoginwithDifferentUserName(java.lang.String, java.lang.String)[pri:0, instance:testPackage.DataProvide@1ffe63b9]" started-at="2020-10-18T19:49:36 IST" name="LoginwithDifferentUserName" data-provider="getData" finished-at="2020-10-18T19:49:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithDifferentUserName -->
+      </class> <!-- testPackage.DataProvide -->
+      <class name="testPackage.TelevedLogin">
+        <test-method signature="LaunchandLogin()[pri:0, instance:testPackage.TelevedLogin@51e5fc98]" started-at="2020-10-18T19:49:36 IST" name="LaunchandLogin" finished-at="2020-10-18T19:49:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchandLogin -->
+      </class> <!-- testPackage.TelevedLogin -->
+      <class name="testPackage.ParamData">
+        <test-method signature="LoginToDemoPortal(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testPackage.ParamData@5dd6264]" started-at="2020-10-18T19:49:36 IST" name="LoginToDemoPortal" finished-at="2020-10-18T19:49:36 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9823350607]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Parikshit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToDemoPortal -->
+        <test-method signature="printURL(java.lang.String)[pri:0, instance:testPackage.ParamData@5dd6264]" started-at="2020-10-18T19:49:36 IST" name="printURL" finished-at="2020-10-18T19:49:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoportal.telived.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printURL -->
+      </class> <!-- testPackage.ParamData -->
+      <class name="testPackage.TelevedConsultationVideo">
+        <test-method signature="LoginandgotoAppointmentPage()[pri:0, instance:testPackage.TelevedConsultationVideo@7c469c48]" started-at="2020-10-18T19:49:36 IST" name="LoginandgotoAppointmentPage" finished-at="2020-10-18T19:49:36 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginandgotoAppointmentPage -->
+        <test-method signature="ChangeDoctoronAppointmentPage()[pri:0, instance:testPackage.TelevedConsultationVideo@7c469c48]" started-at="2020-10-18T19:49:36 IST" name="ChangeDoctoronAppointmentPage" finished-at="2020-10-18T19:49:36 IST" depends-on-methods="testPackage.TelevedConsultationVideo.LoginandgotoAppointmentPage" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeDoctoronAppointmentPage -->
+        <test-method signature="verifyAppointmentPage()[pri:0, instance:testPackage.TelevedConsultationVideo@7c469c48]" started-at="2020-10-18T19:49:36 IST" name="verifyAppointmentPage" finished-at="2020-10-18T19:49:36 IST" depends-on-methods="testPackage.TelevedConsultationVideo.LoginandgotoAppointmentPage" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppointmentPage -->
+      </class> <!-- testPackage.TelevedConsultationVideo -->
+    </test> <!-- Test -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
